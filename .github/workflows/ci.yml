@@ -42,7 +42,7 @@ jobs:
         - build: nightly-arm
           os: ubuntu-18.04
           rust: nightly
-          target: arm-unknown-linux-gnueabihf
+          target: aarch64-unknown-linux-musl
         - build: macos
           os: macos-latest
           rust: nightly
